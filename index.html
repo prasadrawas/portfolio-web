@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Sarala' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Portfolio - Prasad Rawas</title>
+
+
+</head>
+<body style="font-family: 'Sarala'; margin-bottom: 100px;">
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn" onclick="reset()" data-aos="zoom-in-right">
+            <i class="fas fa-bars"></i>
+        </label>
+        <lable> <img src="assets/img/logo.png" alt="" class="logo"  data-aos="zoom-in-left"></lable>
+        <ul data-aos="zoom-in-left" id="nav" >
+            <a href="#home" class="nav-links" onclick="menuClick()"><li class="active">Home</li></a>
+            <span class="seperator">|</span>
+            <a href="#about" class="nav-links" onclick="menuClick()"><li class="">About</li></a>
+            <span class="seperator">|</span>
+            <a href="#skills" class="nav-links" onclick="menuClick()"><li class="">Skills</li></a>
+            <span class="seperator">|</span>
+            <a href="#resume" class="nav-links" onclick="menuClick()"><li class="">Resume</li></a>
+            <span class="seperator">|</span>
+            <a href="#projects" class="nav-links" onclick="menuClick()"><li class="">Projects</li></a>
+            <span class="seperator">|</span>
+            <a href="#contact" class="nav-links" onclick="menuClick()"><li class="">Contact</li></a>
+        </ul>
+    </nav>
+
+    <div class="home" id="Home">
+        <div class="container" style="margin-top: 10%; padding-left: 8%; padding-right: 8%">
+            <div class="row">
+                <div class="col-md-6" style="float:inherit;" data-aos="zoom-out">
+                    <div class="intro"  data-aos="slide-right">
+                        <h1>Heya</h1>
+                        <h1>I'm <span class="highlight">Prasad</span></h1>
+                        <h1 class="typing-text">Flutter Developer</h1>
+                    </div>
+                    <div data-aos="bottom-top">
+                        <h2 style="margin-top: 50px; color: rgb(71, 71, 71);">Connect with me</h2>
+                        <ul style="padding: 0px; margin: 0px;">
+                            <a href="#" class="nav-menu"><li class="font-icons"><div class="icon"><i class="fab fa-instagram"></i></div></li></a>
+                            <a href="#" class="nav-menu"><li class="font-icons"><div class="icon"><i class="fab fa-github"></i></div></li></a>
+                            <a href="#" class="nav-menu"><li class="font-icons"><div class="icon"><i class="fab fa-linkedin"></i></div></li></a>
+                            <a href="#" class="nav-menu"><li class="font-icons"><div class="icon"><i class="fas fa-envelope"></i></div></li></a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6"  data-aos="zoom-out">
+                    <img src="assets/img/profile-pic.png" class="img-fluid profile-pic" alt="Responsive image">
+                </div>
+            </div>
+           
+            <hr class="hr" style="margin: 80px;" data-aos="zoom-in-right"/>
+
+            <div class="row" id="about">
+                <h1 class="headings"  data-aos="zoom-out">About</h1>
+                <p class="about-text">
+                    
+                    <span data-aos="zoom-in-right"> I’m <span class="highlight">Prasad Rawas</span> Student of Bachelor’s of Information Technology from <span class="highlight">MGM’s Dr. G. Y. Pathrikar
+                    college of Computer Science & Information Technology.</span> </span> <br> <br>
+                    
+                   <span data-aos="zoom-in-right"> Can work in multiple languages and able to write good quality <span class="highlight">Code</span> & <span class="highlight">Algorithms</span> using appropriate
+                    <span class="highlight">Data structure</span> & applying best techniques to reduce worst case time complexity. </span>
+                    <br> <br>
+                    
+                  <span data-aos="zoom-in-right">Have good experience in <snap class="highlight">Flutter</snap> mobile app developement and <span class="highlight">Web development</span> and have built
+                    <span class="highlight">20+</span> mobile apps and <span class="highlight">4+</span> websites successfully.</span>
+                    
+                    <br> <br>
+                    <span data-aos="zoom-in-right">Have good knowledge of <span class="highlight">Data Structures & Algorithms</span> and developed intiutions of visualizing and
+                    applying different DS by solving <span class="highlight">600+</span> Questions from <span class="highlight">GeeksforGeeks</span> & <span class="highlight">HackerRank</span> .</span>
+                    </p>
+            </div>
+
+            <hr class="hr" style="margin: 80px;" data-aos="zoom-in-right"/>
+
+            <div class="skills" id="skills">
+                <h1 class="headings" data-aos="zoom-out">Skills</h1>
+                
+                <h2 data-aos="zoom-in-right"> <i class="fas fa-mobile"  ></i> &nbsp; Flutter developement</h2>
+                <div class="progress" style="height: 5px; margin-left: 30px; margin-top: 15px;" data-aos="zoom-in-right">
+                    <div class="progress-bar" role="progressbar" style="width:80%; border-radius: 50px; background-color:#212431 !important;"></div>
+                </div>
+        
+             
+                    <h2 data-aos="zoom-in-right"> <i class="fab fa-html5" style="margin-top: 30px;" ></i> &nbsp; Web developement</h2>
+                    <div data-aos="zoom-in-right" class="progress" style="height: 5px; margin-left: 30px; margin-top: 15px;">
+                        <div class="progress-bar" role="progressbar" style="width:70%; border-radius: 50px; background-color:#212431 !important;"></div>
+                    </div>
+             
+                    <h2 data-aos="zoom-in-right"> <i class="fas fa-server" style="margin-top: 30px;"></i> &nbsp; D.S. & Algo</h2>
+                    <div data-aos="zoom-in-right" class="progress" style="height: 5px; margin-left: 30px; margin-top: 15px;">
+                        <div class="progress-bar" role="progressbar" style="width:70%; border-radius: 50px; background-color:#212431 !important;"></div>
+                    </div>
+             
+                    <h2 data-aos="zoom-in-right"> <i class="fas fa-code" style="margin-top: 30px;"></i> &nbspCoding</h2>
+                    <div data-aos="zoom-in-right" class="progress" style="height: 5px; margin-left: 30px; margin-top: 15px;">
+                        <div class="progress-bar" role="progressbar" style="width:90%; border-radius: 50px; background-color:#212431 !important;"></div>
+                    </div>
+             
+                    <h2 data-aos="zoom-in-right"> <i class="fas fa-robot" style="margin-top: 30px;"></i> &nbsp; Machine Learning</h2>
+                    <div data-aos="zoom-in-right" class="progress" style="height: 5px; margin-left: 30px; margin-top: 15px;">
+                        <div class="progress-bar" role="progressbar" style="width:25%; border-radius: 50px; background-color:#212431 !important;"></div>
+                    </div>
+            </div>
+
+            <hr class="hr" style="margin: 80px;" data-aos="zoom-in-right"/>
+
+            <div class="resume" id="resume">
+                <h1 class="headings" data-aos="zoom-out">Resume</h1>
+                <h3  data-aos="zoom-in"> <i class="fas fa-user"></i>&nbsp; Personal Details</h3>
+
+                <div class="row personal-details" style="text-align: left; margin-top: 20px;">
+                    <div class="col-md-4 col-sm-6 col-xs-6" data-aos="zoom-in"> <p><strong><i class="fas fa-calendar-alt"></i> DOB : </strong> OCT 23, 1999</p> </div>
+                    <div class="col-md-4 col-sm-6 col-xs-6" data-aos="zoom-in"> <p><strong><i class="fas fa-search-location"></i> City : </strong> Paithan</p> </div>
+                    <div class="col-md-4 col-sm-6 col-xs-6" data-aos="zoom-in"> <p><strong><i class="fas fa-pen-alt  "></i> Age : </strong> 21</p> </div>
+                    <div class="col-md-4 col-sm-6 col-xs-6" data-aos="zoom-in"> <p><strong><i class="fas fa-phone-alt"></i> Phone : </strong> 7276974942</p> </div>
+                    <div class="col-md-4 col-sm-6 col-xs-6" data-aos="zoom-in"> <p><strong><i class="fas fa-envelope"></i> Email : </strong> prasadrawas.om@gmail.com</p> </div>
+                    <div class="col-md-4 col-sm-6 col-xs-6" data-aos="zoom-in"> <p><strong><i class="fas fa-briefcase"></i> Freelance : </strong> Available</p> </div>
+                </div>
+                
+                <h3  data-aos="zoom-in"> <i class="fas fa-graduation-cap" style="margin-top: 50px; margin-bottom: 30px;"></i>&nbsp; Educations & Qualifications</h3>
+  
+                <div class="education-details"  data-aos="zoom-in">
+                    <div class="duration">2018-21</div>
+                    <p class="course-name">Bachelor’s in Information Technology</p>
+                    <p class="">MGM's Dr. G.Y. Pathrikar college of Computer Science & Information Technology, Aurangabad</p>
+                    <p> <strong>Favourite fields of study : </strong> Data Structures & Algorithms, Programming, Web developement, Android, Databases.</p>
+                </div>
+
+
+                <h3  data-aos="zoom-in"> <i class="fas fa-desktop" style="margin-top: 70px; margin-bottom: 30px; "></i>&nbsp; Courses</h3>
+  
+                <div class="course-details" data-aos="zoom-in">
+                    <div class="duration">2018-18</div>
+                    <p class="course-name">Web developement using PHP</p>
+                    <p class="">Youtube | Udemy | Coursera</p>
+                </div>
+
+                <div class="divider" style="margin-bottom: 40px;"></div>
+
+                <div class="course-details" data-aos="zoom-in">
+                    <div class="duration">2020-20</div>
+                    <p class="course-name">Java</p>
+                    <p class="">Youtube | Udemy | Coursera</p>
+                </div>
+                <div class="divider" style="margin-bottom: 40px;"></div>
+
+                <div class="course-details" data-aos="zoom-in">
+                    <div class="duration">2020-20</div>
+                    <p class="course-name">Python</p>
+                    <p class="">Youtube | Udemy | Coursera</p>
+                </div>
+                <div class="divider" style="margin-bottom: 40px;"></div>
+
+                <div class="course-details" data-aos="zoom-in">
+                    <div class="duration">2020-20</div>
+                    <p class="course-name">Machine Learning</p>
+                    <p class="">Youtube | Udemy | Coursera</p>
+                </div>
+            </div>
+            
+            <hr class="hr" style="margin: 80px;" data-aos="zoom-in-right"/>
+
+            <div class="projects" id="projects">
+                <h1 class="headings" data-aos="zoom-out">Projects</h1>
+
+                <div class="row project-card" data-aos="zoom-out">
+                    <div class="col-md-6"style="padding: 20px;">
+                        <h3>Movie Ticket booking app</h3>
+                        <p>Flutter app Online movie ticket booking with firebase servies and Movie DB API.</p>
+                    </div>
+                   <div class="col-md-6">
+                    <img src="assets/img/movies.jpg" class="img-fluid project-image">
+                   </div>
+                </div>
+
+
+                <div class="row project-card" data-aos="zoom-out" >
+                    <div class="col-md-6"style="padding: 20px;">
+                        <h3>CV Maker</h3>
+                    <p>Flutter app that will help you to create your very own professional resume with even designing.</p>
+                    </div>
+                   <div class="col-md-6">
+                    <img src="assets/img/cvmaker.jpg" class="img-fluid project-image">
+                   </div>
+                </div>
+               
+
+
+
+
+                <div class="row project-card" data-aos="zoom-out">
+                    <div class="col-md-6" style="padding: 20px;">
+                        <h3>Password Manager</h3>
+                        <p>Flutter app that will store your Login Credentials | Bank Details | Card Details securely on your local system.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="assets/img/password-manager.jpg" class="img-fluid project-image">
+                    </div>
+                </div>
+
+
+
+                <div class="row project-card"  data-aos="zoom-out">
+                    <div class="col-md-6" style="padding: 20px;">
+                        <h3>Restaurant App</h3>
+                        <p>Flutter app for online Restaurant system with firebase services and location services.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="assets/img/restaurant.jpg" class="img-fluid project-image">
+                    </div>
+                </div>
+
+
+
+
+                <div class="row project-card" data-aos="zoom-out">
+                    <div class="col-md-6" style="padding: 20px;">
+                        <h3>E-Commerce App</h3>
+                        <p>Flutter E-Commerce application with Rest API and Firebase Services.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="assets/img/makeup.jpg" class="img-fluid project-image">
+                    </div>
+                </div>
+
+
+
+                <div class="row project-card"  data-aos="zoom-out">
+                    <div class="col-md-6" style="padding: 20px;">
+                        <h3>Food Delivery app</h3>
+                        <p>Flutter app for online food delivery with Firebase services and Location Services.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="assets/img/food-delivery.jpg" class="img-fluid project-image">
+                    </div>
+                </div>
+
+
+
+                <div class="row project-card"  data-aos="zoom-out">
+                    <div class="col-md-6" style="padding: 20px;">
+                        <h3>File Manager</h3>
+                        <p>A simple flutter file manager app.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="assets/img/file-manager.jpg"class="img-fluid project-image">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        let clicked=false;
+        AOS.init({
+            offset: 100,
+            duration: 1000,
+        });  
+        var home = document.getElementById('Home');
+        function reset(){
+            
+            clicked=!clicked;
+            if(clicked){
+                home.style.display="none";
+            }else{
+                home.style.display="block";
+            }
+        }
+
+
+        function menuClick(){
+            var check = document.getElementById("check");
+            check.checked=false;
+            home.style.display="block";
+            clicked=!clicked;
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
